@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle at center, rgb(214, 168, 255), violet);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.element{
+    text-align: center;
+    margin: 4cm 4cm;
+}
+.element h1{
+    margin-top: 0;
+    font-weight: 100;
+}
+.element a{
+    color: white;
+}
+.element a:hover{
+    color: violet;
+}
+.bottomcontainer{
+    background-color: white;
+    color: gray;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 66px;
+    border-radius: 5px 5px 0 0;
+}
+.bottomcontainer ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.bottomcontainer li{
+    margin-right: 2.4cm;
+    margin-left: 2.4cm;
+    margin-bottom: 4cm;
+    list-style: none;
+    transform: translateY(0);
+    transition: 0.3s;
+}
+.bottomcontainer li:hover{
+    transform: translateY(-13px);
+    transition: 0.3s;
+}
+.bottomcontainer a{
+    color: gray;
+    text-decoration: none;
+}
+.bottomcontainer a:hover{
+    color: violet;
+}
+.aper{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+.fromaper1 h3{
+    font-weight: 200;
+}
+.fromaper2 img{
+    border-radius: 50%;
+    width: 300px;
+}
